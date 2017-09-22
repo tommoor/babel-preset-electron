@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-electron",
-  "version": "6.8.0",
+  "version": "7.0.0",
   "description": "Babel preset with all plugins for Electron.",
   "author": "Evan Morikawa <evan@evanmorikawa.com>",
   "homepage": "https://babeljs.io/",
@@ -8,7 +8,7 @@
   "repository": "https://github.com/emorikawa/babel-preset-electron",
   "main": "index.js",
   "engines": {
-    "electron": ">= 37.8"
+    "electron": ">= 1.7"
   },
   "dependencies": {
     "babel-plugin-transform-es2015-destructuring":    "6.8.x",
@@ -25,7 +25,7 @@
     "babel-plugin-syntax-trailing-function-commas":   "6.8.x",
     "babel-plugin-transform-object-rest-spread":      "6.8.x",
 
-    "babel-plugin-transform-async-to-generator":      "6.8.x",
+
     "babel-plugin-transform-exponentiation-operator": "6.8.x"
   }
 }
